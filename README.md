@@ -1,1 +1,3 @@
 # sudoku-solver_HitenMehra
+
+The Sudoku solver is designed to efficiently solve Sudoku puzzles by employing a backtracking algorithm. It takes a partially completed Sudoku grid as input and systematically tries to fill in the empty cells with numbers from 1 to 9 while ensuring that no number violates the fundamental Sudoku rules. The program checks for validity at each step, and if an invalid placement is encountered, it backtracks and tries a different number. This method guarantees a solution if one exists while minimizing unnecessary computations. The solver is implemented in Python, making it easy to understand, modify, and extend for advanced variations of Sudoku.
